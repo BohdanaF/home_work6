@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+table {
+    margin: 10px;
+    border-collapse: collapse;
+    vertical-align: middle;
+    /*border: 2px solid black;*/
+}
+
+td {
+    border: 8px solid #322b1e;
+    padding: 20px;
+    /*width: 27px;*/
+    /*height: 39px;*/
+}
+
+
+.col-main {
+    background-color: white;
+}
+
+.col-additional {
+    background-color: yellow;
+}
+
+.col-secondary {
+    background-color: red;
+}
+
+.col-filled {
+    background-color: black;
+    width: 10vw;
+}
+
+.col-unique {
+    background-color: blue;
+    padding: 10px 70px;
+}
+
+.long {
+    padding: 10px;
+}
+
+.big {
+    padding: 90px;
+}
+
+.small {
+    padding: 10px;
+}
+
+.wider-line {
+    padding: 40px 10px;
+}
