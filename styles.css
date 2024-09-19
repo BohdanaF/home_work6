@@ -4,10 +4,56 @@
     border: 0;
     box-sizing: border-box;
 }
-table {
+
+.table {
     margin: 10px;
     border-collapse: collapse;
+    vertical-align: middle;
 }
+
 table img {
     vertical-align: middle;
+}
+
+.table__col {
+    border: 8px solid #322b1e;
+    padding: 20px;
+}
+
+.col-main {
+    background-color: white;
+}
+
+.col-additional {
+    background-color: yellow;
+}
+
+.col-secondary {
+    background-color: red;
+}
+
+.col-filled {
+    background-color: black;
+    width: 10vw;
+}
+
+.col-unique {
+    background-color: blue;
+    padding: 10px 70px;
+}
+
+.long {
+    padding: 10px;
+}
+
+.big {
+    padding: 90px;
+}
+
+.small {
+    padding: 10px;
+}
+
+.wider-line {
+    padding: 40px 10px;
 }
